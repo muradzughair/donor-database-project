@@ -226,7 +226,7 @@ This procedure takes an event ID and returns the list of donors who participated
 
 DELIMITER $$
 CREATE PROCEDURE Get_Donors_participate (
-    p_Event_ID INT
+    IN p_Event_ID INT
 )
 BEGIN
     SELECT 
@@ -242,9 +242,7 @@ BEGIN
 END $$
 DELIMITER ;
 
-Call Get_Donors_participate();
-
-
+Call Get_Donors_participate()
 
 
 /*
