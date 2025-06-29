@@ -12,7 +12,6 @@ street_name varchar (20) not null
 );
 
 
-
 Create Table Donor (
 
 Donor_ID int primary key,

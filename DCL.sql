@@ -11,4 +11,4 @@ GRANT SELECT ON donor_tracking_database.Donation_Allocation TO EventManager;
 GRANT SELECT ON donor_tracking_database.Participation TO EventManager;
 
 CREATE USER DataAnalyst IDENTIFIED BY '3555';
-GRANT SELECT, EXECUTE ON donor_tracking_database.* TO DataAnalyst;
+GRANT SELECT, EXECUTE ON donor_tracking_database.* TO DataAnalyst;  
