@@ -60,7 +60,7 @@ The project focuses on the complete database design and development cycle, from 
 
 - **MySQL**
 - **SQL DDL and DML**
-- **Draw.io for designing 
+- **Draw.io for designing**
 
 
 
