@@ -1,7 +1,7 @@
-#Donor Tracking System – Database Design and Development:
+# Donor Tracking System – Database Design and Development:
   - This repository contains a comprehensive backend solution for managing donor information, event participation, donation tracking, and communication history for organizations involved in charitable work or education support.
 
-#overview:
+# overview:
 
 The Donor Tracking System is designed to serve as a centralized backend platform that enables efficient management of:
 
@@ -13,7 +13,7 @@ The Donor Tracking System is designed to serve as a centralized backend platform
 
 The project focuses on the complete database design and development cycle, from initial requirements to a fully functioning relational database system.
 
-#Core Features
+# Core Features
 
 - **Relational Database Design** using proper ER modeling and normalization
 - **Five+ Interrelated Tables** with well-defined keys and relationships
@@ -23,9 +23,9 @@ The project focuses on the complete database design and development cycle, from 
 - **Security Features** including user privilege control and maintenance procedures
 - **Testing Plan** to validate data integrity and access control
 
-#Database Structure
+# Database Structure
 
-##Entities:
+## Entities:
 
 - **Donors**: stores donor details (name, contact info, occupation, etc.)
 - **Events**: information about events organized by the foundation
@@ -34,7 +34,7 @@ The project focuses on the complete database design and development cycle, from 
 - **Communication**: records of interactions and outreach with donors
 
 
-## 🔍 Design Highlights
+## Design Highlights
 
 - **ER Model** created with clear cardinalities and participation constraints
 - **Normalized Tables** to at least 3NF to remove redundancy and anomalies
@@ -64,6 +64,6 @@ The project focuses on the complete database design and development cycle, from 
 
 
 
-## 📄 Documentation
+## Documentation
 
 - Technical documentation includes schema explanation, diagrams, normalization steps, and flowcharts
